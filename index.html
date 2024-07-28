@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <title> Indumentaria viajeros - Contáctenos</title>
+        <meta name="description" content="Formulario de contacto - Tu contacto es el primer paso para grandes posibilidades">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="img/icons/logo.png">
+		<link rel="stylesheet" href="https://use.typekit.net/dbb2pgj.css"> <!-- Tipografia desde Adobe -->
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div id="container">
+			<header>
+				<div id="preHeader">
+					<!-- PreHeader donde agrego el login -->
+					
+					<div id="login">
+						
+					</div>
+				</div>
+				<nav>
+					<div id="header_logo">
+						<a href="index.html"><img src="img/icons/logo.png" alt="Logo indumentaria viajeros"></a>
+					</div>
+					<img id="menu_icon" src="img/icons/menu_24.png" alt="Icono de Menú">
+					<ul>
+						<li>Productos</li>
+					</ul>
+
+				</nav>
+			</header>
+			<main>
+				<div id="bread_crumbs">Inicio <div id="Inicio"></div>
+					
+					
+					<!-- Botón para abrir el modal -->
+					<a href="#" id="abrirModal" alt="Abrir Carrito" title="Bóton para abrir el carrito">
+						<img src="img/icons/shopping_cart_48.png" alt="Ícono carrito de compra">
+						<div id="header_total_productos"></div>
+					</a>
+
+					<!-- El modal -->
+					<div id="modal" class="modal">
+						<div class="modal__contenido">
+							<span class="modal__cerrar">&times;</span>
+							<h2>Carrito de Compra</h2>
+							<ul id="items-carrito">
+								<!-- Aquí se agregarán los elementos del carrito -->
+								
+								<!-- Otros elementos del carrito... -->
+							</ul>
+							<p>Total de Productos : <span id="total-productos"> Carrito vacío </span></p>
+							<p class="modal__totales">Total: <span id="total-carrito">$0.00</span> 
+								<a href="#" id="borrar_productos" alt="Se eliminaran todos los productos del carrito" tittle="Se eliminaran todos los productos del carrito">Limpiar Carrito</a>
+							</p>
+							<button id="Pagar">Pagar</button>
+						</div>
+					</div>
+
+					
+				</div>
+				<section id="Productos">
+					<input type="search" id="Buscador" placeholder="Buscar producto por Diseño">
+					<div id="productos_banner">
+					<!--Aquí se Agregan los Procutos con javascript-->
+					
+					</div>
+				</section>
+			</main>
+			<footer>
+				<div id="footer_logo"><img src="img/icons/logo.png" alt="Logo montaña"></div>
+				<div id="derechos">Marca Registrada - Argentina - Final Abril </div>
+			</footer>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script type="module" src="js/main.js"></script>
+    </body>
+</html>
+
+
+
+
